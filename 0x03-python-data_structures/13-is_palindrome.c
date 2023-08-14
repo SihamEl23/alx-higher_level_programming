@@ -5,7 +5,7 @@ int is_palindrome(listint_t **head)
 {
 	int is_p = 1;
 	listint_t *slow = *head, *fast = *head, *prev = NULL, *tmp;
-	
+
 	if (*head == NULL)
 		return (1);
 	while (fast != NULL && fast->next != NULL)
